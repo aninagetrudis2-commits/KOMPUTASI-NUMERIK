@@ -1,0 +1,56 @@
+ALGORITMA PENYELESAIAN SISTEM PERSAMAAN LINEAR 3 VARIABEL
+METODE ELIMINASI GAUSS DENGAN PIVOTING PARSIAL
+
+A. TUJUAN
+Menentukan nilai tiga variabel (x, y, z) dari tiga
+persamaan linear menggunakan metode eliminasi Gauss
+dengan pivoting parsial.
+
+B. INPUT
+Koefisien a11, a12, a13, b1,
+a21, a22, a23, b2,
+a31, a32, a33, dan b3.
+
+C. PROSES ALGORITMA
+1. Mulai.
+2. Masukkan koefisien dari tiga persamaan linear
+   dan konstanta di ruas kanan.
+3. Susun seluruh koefisien ke dalam matriks
+   augmented berukuran 3 x 4.
+4. Untuk setiap kolom pivot pertama dan kedua,
+   pilih elemen dengan nilai absolut terbesar
+   dari baris yang belum dieliminasi.
+5. Tukar posisi baris jika diperlukan agar
+   elemen pivot berada pada posisi yang tepat.
+6. Periksa elemen pivot. Jika nilainya nol,
+   sistem tidak memiliki solusi tunggal.
+   Hentikan proses.
+7. Lakukan eliminasi baris untuk mengubah
+   elemen di bawah pivot menjadi nol.
+8. Setelah proses eliminasi selesai, peroleh
+   matriks segitiga atas.
+9. Lakukan substitusi mundur untuk menghitung
+   nilai z, kemudian y, dan terakhir x.
+10. Tampilkan hasil nilai x, y, dan z.
+11. Selesai.
+
+D. OUTPUT
+Nilai x, y, dan z sebagai solusi sistem
+persamaan linear tiga variabel.
+
+E. CONTOH PERHITUNGAN
+2x + y - z = 8
+-3x - y + 2z = -11
+-2x + y + 2z = -3
+
+Hasil penyelesaian:
+x = 2
+y = 3
+z = -1
+
+F. KESIMPULAN
+Metode eliminasi Gauss dengan pivoting parsial
+menyelesaikan sistem persamaan linear tiga variabel
+melalui operasi baris elementer dan substitusi
+mundur. Pivoting parsial membantu mengurangi
+masalah pembagian dengan pivot yang terlalu kecil
