@@ -1,0 +1,19 @@
+A. Algoritma Metode Bisection
+Tujuan: Menentukan nilai akar dari persamaan nonlinear menggunakan metode Bisection.
+
+Langkah-langkah algoritma:
+1. Mulai.
+2. Masukkan fungsi persamaan nonlinear.
+3. Tentukan batas bawah a dan batas atas b.
+4. Hitung nilai f(a) dan f(b).
+5. Periksa apakah f(a) × f(b) < 0.
+6. Hitung titik tengah menggunakan rumus:
+
+            c = a + b / 2
+
+7. Hitung nilai f(c).
+8. Jika f(c) mendekati nol atau toleransi terpenuhi, hentikan perhitungan.
+9. Jika belum, tentukan interval baru berdasarkan tanda fungsi.
+10. Ulangi sampai mendapatkan akar persamaan.
+11. Tampilkan hasil akar.
+12. Selesai.
