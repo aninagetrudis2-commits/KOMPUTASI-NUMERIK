@@ -1,0 +1,33 @@
+PROMPT AI - TUGAS KOMPUTASI NUMERIK
+Topik: Sistem Persamaan Linear (SPL) 3 Variabel dengan Metode Eliminasi Gauss
+
+Prompt 1:
+Bantu saya membuat algoritma penyelesaian Sistem Persamaan Linear 3 variabel menggunakan metode Eliminasi Gauss.
+Gunakan bahasa Indonesia yang sederhana, sertakan tujuan, contoh soal, langkah-langkah algoritma, dan pseudocode.
+
+Prompt 2:
+Buat kode Python untuk menyelesaikan Sistem Persamaan Linear 3 variabel menggunakan metode Eliminasi Gauss. 
+Kode harus dapat dijalankan di Google Colab dan dibagi menjadi beberapa cell agar bisa dijalankan satu per satu.
+Gunakan contoh persamaan:
+2x + y - z = 8
+-3x - y + 2z = -11
+-2x + y + 2z = -3
+Tampilkan hasil nilai x, y, dan z.
+
+Prompt 3:
+Tambahkan penjelasan detail dengan bahasa sederhana untuk setiap cell dan baris penting pada kode Python metode Eliminasi Gauss. 
+Penjelasan akan saya masukkan ke dalam Markdown cell Google Colab.
+
+Prompt 4:
+Bantu saya menyusun isi file teks yang berisi seluruh prompt AI yang digunakan untuk mengerjakan tugas algoritma dan kode Python SPL 3 variabel, 
+agar dapat disimpan sebagai file .txt di repository GitHub bernama Komputasi Numerik.
+
+Kode menggunakan metode Eliminasi Gauss dengan pemilihan pivot (partial pivoting) dan substitusi mundur.
+
+
+
+
+
+
+
+
