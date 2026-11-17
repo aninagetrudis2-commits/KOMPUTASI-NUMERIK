@@ -1,0 +1,41 @@
+                     KUMPULAN PROMPT AI
+ Penyelesaian Sistem Persamaan Nonlinear Menggunakan Metode Bisection
+
+Prompt 1 – Membuat Algoritma
+Bantu saya membuat algoritma penyelesaian persamaan nonlinear menggunakan metode Bisection.
+Jelaskan tujuan, rumus, langkah-langkah penyelesaian, dan pseudocode dengan bahasa Indonesia yang sederhana dan mudah dipahami.
+
+Prompt 2 – Membuat Kode Python
+Buatkan kode Python untuk menyelesaikan persamaan nonlinear menggunakan metode Bisection.
+Gunakan contoh persamaan:
+
+f(x) = x³ - x - 2
+
+Dengan interval awal:
+a = 1 dan b = 2.
+
+Gunakan bahasa Python yang sederhana agar bisa dijalankan di Google Colab.
+
+Prompt 3 – Membagi Kode Menjadi Beberapa Cell
+Susun kode Python metode Bisection ke dalam beberapa cell Google Colab agar setiap cell dapat dijalankan secara terpisah dan berurutan. 
+Cell pertama berisi fungsi Bisection, cell kedua berisi persamaan dan nilai awal, serta cell ketiga menampilkan hasil perhitungan.
+
+Prompt 4 – Memberikan Penjelasan Kode
+Berikan penjelasan detail setiap cell dan setiap baris penting pada kode Python metode Bisection.
+Gunakan kata-kata sederhana agar mudah dipahami oleh mahasiswa pemula.
+
+Prompt 5 – Menjelaskan Hasil Program
+Jelaskan hasil perhitungan metode Bisection berdasarkan persamaan yang digunakan.
+Tampilkan nilai akar persamaan dan jelaskan bagaimana metode Bisection mendapatkan hasil tersebut.
+
+ Prompt 6 – Membuat Penjelasan Video
+Bantu saya menyusun teks penjelasan untuk video presentasi tugas Komputasi Numerik tentang penyelesaian persamaan nonlinear menggunakan metode Bisection.
+Buat penjelasan singkat, jelas, dan mudah diucapkan.
+
+Prompt 7 – Menyiapkan File GitHub
+Bantu saya menyusun nama file dan susunan repository GitHub untuk menyimpan algoritma,
+kode Python Google Colab, penjelasan kode, video MP4, dan kumpulan prompt AI tentang metode Bisection.
+
+Gunakan contoh persamaan f(x) = x³ - x - 2, interval awal [1, 2], dan toleransi 0,0001. 
+Pastikan syarat f(a) dan f(b) memiliki tanda yang berbeda sebelum proses iterasi dilakukan.
+
